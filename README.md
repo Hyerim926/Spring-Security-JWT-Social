@@ -11,7 +11,7 @@
 - React
 ### Front-end 설정
 ```bash
-frontend> npm install
+springsecurity>frontend> npm install
 ```                                                                                                                                         
 ### Back-end 설정
 `application.yml`
