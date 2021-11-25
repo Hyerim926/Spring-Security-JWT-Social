@@ -9,6 +9,8 @@
 - MySQL
 - Spring Boot
 - React
+### References
+↗[CalliCoder](https://www.callicoder.com/spring-boot-security-oauth2-social-login-part-1/)
 ### Front-end 설정
 ```bash
 springsecurity>frontend> npm install
