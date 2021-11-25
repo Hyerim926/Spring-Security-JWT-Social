@@ -1,7 +1,10 @@
 package com.socialJwt.springsecurity.controller;
 
+import com.socialJwt.springsecurity.exception.ResourceNotFoundException;
 import com.socialJwt.springsecurity.model.User;
 import com.socialJwt.springsecurity.repository.UserRepository;
+import com.socialJwt.springsecurity.security.CurrentUser;
+import com.socialJwt.springsecurity.security.UserPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

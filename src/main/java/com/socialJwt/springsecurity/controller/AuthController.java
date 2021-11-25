@@ -1,5 +1,6 @@
 package com.socialJwt.springsecurity.controller;
 
+import com.socialJwt.springsecurity.exception.BadRequestException;
 import com.socialJwt.springsecurity.model.AuthProvider;
 import com.socialJwt.springsecurity.model.User;
 import com.socialJwt.springsecurity.payload.ApiResponse;
@@ -7,6 +8,7 @@ import com.socialJwt.springsecurity.payload.AuthResponse;
 import com.socialJwt.springsecurity.payload.LoginRequest;
 import com.socialJwt.springsecurity.payload.SignUpRequest;
 import com.socialJwt.springsecurity.repository.UserRepository;
+import com.socialJwt.springsecurity.security.TokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

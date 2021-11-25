@@ -1,5 +1,12 @@
 package com.socialJwt.springsecurity.config;
 
+import com.socialJwt.springsecurity.security.CustomUserDetailsService;
+import com.socialJwt.springsecurity.security.RestAuthenticationEntryPoint;
+import com.socialJwt.springsecurity.security.TokenAuthenticationFilter;
+import com.socialJwt.springsecurity.security.oauth2.CustomOAuth2UserService;
+import com.socialJwt.springsecurity.security.oauth2.HttpCookieOAuth2AuthorizationRequestRepository;
+import com.socialJwt.springsecurity.security.oauth2.OAuth2AuthenticationFailureHandler;
+import com.socialJwt.springsecurity.security.oauth2.OAuth2AuthenticationSuccessHandler;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
