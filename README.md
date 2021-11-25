@@ -81,12 +81,9 @@ spring:
             user_name_attribute : id # api 문서 참고
 app:
   auth:
-    tokenSecret: 926D96C90030DD58429D2751AC1BDBBC # JWT를 암호화 하기 위한 암호화 키 (32글자면 된다)
-    tokenExpirationMsec: 864000000  # token 만료 기간 (24h * 60min * 60s * 1000ms)
+    tokenSecret: 926D96C90030DD58429D2751AC1BDBBC
+    tokenExpirationMsec: 864000000 
   oauth2:
-    # OAuth2 공급자로 성공적으로 인증 한 후 사용자에 대한 인증 토큰을 생성하고 토큰을
-    # 프론트 엔드 클라이언트가 /oauth2/authorize 요청에서 지정한 redirectUri 입니다.
-    # 쿠키는 모바일 클라이언트에서 잘 작동하지 않기 때문에 사용하지 않습니다
     authorizedRedirectUris:
       - http://localhost:3000/oauth2/redirect
       - myandroidapp://oauth2/redirect
