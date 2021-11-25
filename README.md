@@ -1,5 +1,5 @@
 # Spring-Security-JWT-Social
-### Spring Security와 OAuth2 및 JWT를 활용한 일반 로그인과 소셜 로그인 예제 <br/><br/>
+### Spring Security와 OAuth2 및 JWT를 활용한 일반 로그인과 소셜 로그인 예제(구글, 네이버, 카카오) <br/><br/>
 ![image](https://user-images.githubusercontent.com/82012938/143465535-bf660b93-3a81-4392-9ce1-c17cac9c6551.png)
 ### 개발환경
 - Java 8
